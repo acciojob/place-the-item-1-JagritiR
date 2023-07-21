@@ -1,2 +1,45 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  gap: 10px;
+padding:10px;
+ justify-content: flex-start;
+
+
+
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+font-weight: 900;
+
+}
+
+.green {
+  background-color: green;
+  order: -1;
+  width: 100px;
+  height: 100px;
+
+	
+
+}
+
+.red {
+  background-color: red;
+  align-self: flex-end;
+	width: 100px;
+	  height: 100px;
+
+}
+
+.blue {
+  background-color: blue;
+	width: 100px;
+	height: 100px;
+
+}
